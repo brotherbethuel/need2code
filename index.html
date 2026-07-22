@@ -1,10 +1,6 @@
 <head>
-  <title>Need2Code</title>
+    <title>Need2Code</title>
 </head>
-<h1>you got BEANZ??</h1>
-<button onclick="alertbeanz()">HELL YEAH</button>
-<script>
-  function alertbeanz(){
-    alert('you got sum beanz! beanz+1')
-  }
-</script>
+<h1 id="title">you got BEANZ??</h1>
+
+<button onclick="document.getElementById('title').innerText = 'NOW YOU GOT BEANZ!';">Change it</button>
