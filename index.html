@@ -1,6 +1,10 @@
-<head>
-    <title>Need2Code</title>
-</head>
-<p id="title">you got BEANZ??</p>
+<textarea id="userInput" rows="5" cols="30"></textarea>
 
-<button onclick="document.getElementById('title').innerText = 'NOW YOU GOT BEANZ!';">Change it</button>
+<button onclick="readInput()">Submit</button>
+
+<script>
+  function readInput() {
+    const text = document.getElementById('userInput').value;
+    alert(text);
+  }
+</script>
